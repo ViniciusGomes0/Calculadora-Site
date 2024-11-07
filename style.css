@@ -1,0 +1,59 @@
+body {
+    background: radial-gradient(#d60202, #000000);
+    
+}
+h1 {
+    color: rgb(7, 116, 211);
+}
+.calculadora {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+    padding: 10px;
+    border-radius: 20px;
+}
+.linha{
+display: flex;
+gap: 5px;
+}
+button {
+    width: 90px;
+    height: 95px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 35px;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(158, 5, 5);
+}
+#zero {
+    width: 200px;
+}
+#igual {
+    width: 200px;
+}
+.display{
+font-size: 33px;
+text-align: right;
+background-color: rgb(247, 245, 245);
+
+}
+
+.esp{
+    background-color: rgb(243, 237, 237);
+}
+.desc{
+    font-size: 50px;
+    margin: 0;
+    position:absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.EspecialNumber{
+    background-color: #FE9502;
+    color: antiquewhite;
+}
