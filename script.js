@@ -1,4 +1,4 @@
-alert ('Essa é minha primeira calculadora, não ligue para erros!:)')
+window.confirm('Primeiro projeto lançado, right?')
 
 const display = document.getElementById('display');
 
